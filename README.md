@@ -13,7 +13,7 @@ Threads that do not execute **critical sections** of the code (ex. sections that
 This implementation ensures that a thread does not switch to another thread in a critical section, consumes from an empty buffer, or produces items in a full buffer through the use of **locks** and **condition variables**. A **circular queue** is used for the buffer.
 
 ## Instructions
-This code utilizes the POSIX pthreads library for Linux. Provide as command line arguments: number of producers, number of consumers, sleep time of producers, sleep time of consumers, and items to be produced into buffer and consumed
+This code utilizes the POSIX pthreads library for Linux. Provide as command line arguments: number of producers, number of consumers, sleep time of producers, sleep time of consumers, and items to be produced into buffer and consumed.
 
 Compile with -pthread
 
