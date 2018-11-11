@@ -20,4 +20,5 @@ Compile with -pthread
 10 10 1000 1000 20
 
 10 producers, 10 consumers, each sleep for 1000ms, produce and consume 20 items in buffer
+
 writes results to output.txt
